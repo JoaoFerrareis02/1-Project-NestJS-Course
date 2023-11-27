@@ -7,7 +7,7 @@ import { DataSourceOptions } from 'typeorm';
 export const dataSourceOptions: DataSourceOptions = {
   type: 'sqlite',
   database: 'db.sqlite',
-  synchronize: true,
+  synchronize: false,
   entities: [Course, Tag],
 };
 
